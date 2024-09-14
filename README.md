@@ -1,4 +1,3 @@
-https://discord.js.org/
 Mys API
 Mys API, kullanıcılara çeşitli bilgilere erişim sağlayan bir API'dir. API, farklı endpointler aracılığıyla veriler sunar ve çeşitli hizmetler sağlar.
 
