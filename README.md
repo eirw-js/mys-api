@@ -1,3 +1,5 @@
+[![Build Status](https://img.shields.io/travis/username/repository.svg)](https://travis-ci.org/username/repository)
+
 Mys API - Veriye Kolay ve Hızlı Erişim Çözümü
 
 Mys API, kullanıcılara günlük hayatta ihtiyaç duyulan çeşitli verilere hızlı ve güvenilir bir şekilde erişim sağlayan kapsamlı bir API hizmetidir. API, farklı endpointler aracılığıyla veri sunarak, kullanıcıların en güncel bilgilere kolayca ulaşmasını sağlar.
