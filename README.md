@@ -41,11 +41,11 @@ Veri Çekme Örneği
 
 Aşağıda, Axios kullanarak API'den veri çekmek için bir örnek bulunmaktadır. API anahtarınızı ve apiUrl'yi ilgili alanlara ekleyerek kullanabilirsiniz.
 
-const axios = require('axios');
+`const axios = require('axios');`
 
-async function fetchData() {
-    const apiKey = 'test'; // API anahtarınızı buraya ekleyin
-    const apiUrl = `https://discordpanel.vercel.app/api/user/{id}`; // İstek atılacak API URL'sini belirtin
+`async function fetchData() {`
+    `const apiKey = 'test'; // API anahtarınızı buraya ekleyin`
+    `const apiUrl = https://discordpanel.vercel.app/api/user/{id}`; // İstek atılacak API URL'sini belirtin`
     
     try {
         const response = await axios.get(apiUrl);
@@ -57,9 +57,9 @@ async function fetchData() {
     } catch (error) {
         console.error('Hata:', error);
     }
-}
+`}`
 
-fetchData();
+`fetchData();`
 
 Bu örnek kod, API'den veri çekmek için kullanılabilir. İstek başarılı olduğunda GuildsDisplayNames alanındaki isimler konsola yazdırılacaktır.
 
