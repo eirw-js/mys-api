@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/travis/username/repository.svg)](https://travis-ci.org/username/repository)
+[![NPM version](https://img.shields.io/npm/v/mys-api.js)](https://www.npmjs.com/package/mys-api.js)
 
 Mys API - Veriye Kolay ve Hızlı Erişim Çözümü
 
