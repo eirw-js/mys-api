@@ -1,23 +1,44 @@
-Mys API
-Mys API, kullanıcılara çeşitli bilgilere erişim sağlayan bir API'dir. API, farklı endpointler aracılığıyla veriler sunar ve çeşitli hizmetler sağlar.
+Mys API - Veriye Kolay ve Hızlı Erişim Çözümü
 
-API Hakkında
-Mys API, kullanıcıların günlük hayatlarında ihtiyaç duydukları çeşitli bilgilere erişim sağlar. Hava durumu, burç bilgisi, döviz kuru, namaz vakitleri gibi çeşitli hizmetler sunar.
-Mys API'nin en önemli özelliği ise discord kullanıcılarını stalklamak.
-Kullanım
-API'yi kullanmak için çeşitli endpointler bulunmaktadır. İşte bazı örnek endpointler:
+Mys API, kullanıcılara günlük hayatta ihtiyaç duyulan çeşitli verilere hızlı ve güvenilir bir şekilde erişim sağlayan kapsamlı bir API hizmetidir. API, farklı endpointler aracılığıyla veri sunarak, kullanıcıların en güncel bilgilere kolayca ulaşmasını sağlar.
 
-/user/{id} - Kullanıcı Bilgisi
-/burc/{isim} - Burç Bilgisi
-/gunlukburc/{isim} - Günlük Burç Bilgisi
-/haftalikburc/{isim} - Haftalık Burç Bilgisi
-/aylikburc/{isim} - Aylık Burç Bilgisi
-/weather/{isim}/ - Hava Durumu Bilgisi
-/iltifat - İltifat
-/doviz - Döviz Kuru Bilgisi
-/namaz/{sehir}/{ilce} - Namaz Vakitleri
-/nsfw - NSFW İçerik //
-Daha fazla endpoint ve kullanım bilgisi için API Dökümantasyonu sayfasını ziyaret edebilirsiniz.
+API Genel Bilgiler
 
-Npm Paketiyle Veri Çekmek Icin
-https://www.npmjs.com/package/mys-api.js
+Mys API, kullanıcıların gündelik yaşamda ihtiyaç duyabilecekleri birçok veriye erişim imkanı sunar. Hava durumu raporları, burç yorumları, döviz kurları, namaz vakitleri gibi hizmetlerin yanı sıra, Discord kullanıcılarına yönelik veri analiz yetenekleriyle de öne çıkar. Özellikle Discord kullanıcılarını takip (stalk) etme özelliği, API’nin dikkat çeken ve ilgi gören yönlerinden biridir.
+
+Kullanım ve Endpointler
+
+Mys API, geniş yelpazeli endpointlerle kullanıcılarına hizmet sunmaktadır. İşte birkaç örnek:
+
+/user/{id} - Kullanıcı bilgilerini getirme
+
+/burc/{isim} - Belirli bir burcun genel bilgisi
+
+/gunlukburc/{isim} - Günlük burç yorumu
+
+/haftalikburc/{isim} - Haftalık burç yorumu
+
+/aylikburc/{isim} - Aylık burç yorumu
+
+/weather/{isim} - Hava durumu bilgisi
+
+/iltifat - Rastgele iltifat üretimi
+
+/doviz - Anlık döviz kuru bilgisi
+
+/namaz/{sehir}/{ilce} - Namaz vakitleri
+
+/nsfw - Yetişkinlere yönelik içerik (NSFW)
+
+
+API’nin sunduğu diğer endpointler ve detaylı kullanım rehberi için API dokümantasyon sayfasını ziyaret edebilirsiniz.
+
+NPM Paketi ile Kolay Entegrasyon
+
+Mys API'yi Node.js projelerinize entegre etmek çok kolaydır. NPM üzerinden sunulan mys-api.js paketini kullanarak, veri çekme işlemlerini hızlı bir şekilde gerçekleştirebilirsiniz. Daha fazla bilgi için:
+NPM Paketi: mys-api.js
+
+
+---
+
+Mys API ile projelerinizde veriye kolayca erişebilir, kullanıcılarınıza güvenilir ve güncel bilgiler sunabilirsiniz.
